@@ -11,4 +11,7 @@ public interface UserRepository extends BaseRepository<User,Integer> {
     public User selectUserById(int id);
 
     public User selectUserById1(int id);
+
+    public User selecUserByJdbc(int id);
+
 }

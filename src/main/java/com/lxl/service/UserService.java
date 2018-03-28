@@ -17,6 +17,7 @@ public class UserService {
     private UserRepository userRepository;
 
     public User selectUserById(int id) {
-        return userRepository.selectUserById(id);
+//        return userRepository.selectUserById(id);
+        return userRepository.selecUserByJdbc(id);
     }
 }
